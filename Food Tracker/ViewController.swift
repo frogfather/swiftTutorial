@@ -12,7 +12,7 @@ class ViewController: UIViewController, UITextFieldDelegate,
 UIImagePickerControllerDelegate, UINavigationControllerDelegate{
     
     //MARK; Properties
-
+    //here's a comment
     @IBOutlet weak var nameTextField: UITextField!
     
     @IBOutlet weak var mealNameLabel: UILabel!
