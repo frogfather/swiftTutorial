@@ -18,7 +18,7 @@ class RatingControl: UIStackView {
     
     required init(coder: NSCoder) {
         super.init(coder: coder)
-        setupButtons()  
+        setupButtons()
     }
     //MARK: Private Methods
     
@@ -30,8 +30,8 @@ class RatingControl: UIStackView {
         
         //Add constraints
         button.translatesAutoresizingMaskIntoConstraints = false
-        button.heightAnchor.constraint(equalToConstant: 44.0).isActive = true
-        button.widthAnchor.constraint(equalToConstant: 44.0).isActive = true
+        button.heightAnchor.constraint(equalToConstant: 24.0).isActive = true
+        button.widthAnchor.constraint(equalToConstant: 24.0).isActive = true
         
         //Add the button to the stack
         addArrangedSubview(button)
